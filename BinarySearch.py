@@ -26,8 +26,4 @@ class BinarySearch(object):
 
         print (start)
 
-    nums = [1, 3, 5, 6]
-    target = 5
-
-    obj = BinarySearch()
-    obj.searchInsert(nums, target)
+   
