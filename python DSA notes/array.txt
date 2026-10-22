@@ -1,0 +1,12 @@
+#1.longest common prefix
+pattern:nestee loop {2 loop ...one loop inside another}
+approach:i checks 1st string ..j checks rest {one at a time}
+if the index of a string is greater than then length of the string ..or ..if the chasracter at an index not equal to 
+other string ...we dont put it in prefix ..we return the prefix ..if matches we add that char to prefix
+
+#https://leetcode.com/problems/longest-common-prefix/description/...(to open lik ..cmd + click)
+note
+#nested loop ...0(n2)...coz it checks all the possibilities 
+#2 pointer ...eliminates possibilites ..go for the correct one ...0(n)
+
+#2.
