@@ -487,7 +487,7 @@ for i in range(t):
     else:
         s=s+m
     print(s)
-"""
+
 t=int(input())
 for i in range(t):
     n=int(input())
@@ -497,8 +497,47 @@ for i in range(t):
         print ("yes")
     else:
         print ("no")
+v
+t=int(input())
+for i in range(t):
+    n=int(input())
+    s=input()
+    ans="yes"
 
+    for j in range(n):
+        for k in range(j+1,n):
+            if s[j]==s[k] and (j%2)!=(k%2):
+                ans ="no"
+                break
+            if ans ==" no":
+                break
+    print(ans)   
 
+t = int(input())
+
+for i in range(t):
+    s = input()
+    for j in range(len(s)):
+        if s[0] == s[1]:
+            print ("N0")
+            break
+        else:
+            print("YES")
+            break
+                 """
+t=int(input())
+for i in range(t):
+    n=int(input())
+    s=input()
+    ans ="yes"
+    for j in range(len(s)):
+        for k in range(j+1,len(s)):
+            if s[j]==s[k] and (j%2)!=(k%2):
+                ans="no"
+                break
+        if ans=="no":
+            break
+    print(ans)
   
 
 
