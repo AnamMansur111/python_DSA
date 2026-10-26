@@ -408,6 +408,99 @@ for num in nums:
         break
     else:
         print("not found")
-        """
+       
+
+S=int(input())
+P=input()
+P=P.lower()
+if len(set(P))==26:
+    print("YES")
+else:
+    print("NO")
+          
+n=int(input())
+for i in range (n):
+    s=input()
+
+ 
+    if len(s)>10:
+        print (s[0]+str(len(s)-2)+s[-1])//we r using str ...cos ..s[0] and s[-1]willl retirn string(letter)and len(s)-2 gives 10 which is integer
+        #so we r converting integer to string ..coz string and integer together is not possible
+    else:
+       print (s)
+    
+n=int(input())
+for i in range (n):
+    k=0
+    s="codeforces"
+    p=input("")
+    for j in range(10):
+        if s[j]!=p[j]:
+            k+=1
+
+    print (k)
+
+n=int(input())
+for i in range(n):
+    s=input()
+    if len(set(s))>2:
+        print("YES")
+    else:
+        print("NO")
+
+ 
+t=int(input())
+for i in range(t):
+    n=int(input())
+    s=input()
+    ans="yes"
+
+    for j in range(n):
+        for k in range(j+1,n):
+            if s[j]==s[k] and (j%2)!=(k%2):
+                ans ="no"
+                break
+            if ans ==" no":
+                break
+    print(ans)   
+     
+t=int(input())
+for i in range(t):
+    n=int(input())
+    m=int(input())
+    s=str(input())
+    for j in range(n):
+        if m>s[i] or m==s[i]:
+            insert(i,m)
+            print(s)
+
+t=int(input())
+for i in range(t):
+    n,m =map(int,input().split())
+    s=input()
+    m=str(m) #since s is a string and v r adding the m into s....v have to make make. m also a string .
+
+    for j in range (n):
+        if m>s[j]:
+            s=s[:j]+m+s[j:]
+            break
+    else:
+        s=s+m
+    print(s)
+"""
+t=int(input())
+for i in range(t):
+    n=int(input())
+    s=input()
+    s=s.lower()
+    if set(s)==meow:
+        print ("yes")
+    else:
+        print ("no")
 
 
+  
+
+
+        
+           
