@@ -524,7 +524,7 @@ for i in range(t):
         else:
             print("YES")
             break
-                 """
+               
 t=int(input())
 for i in range(t):
     n=int(input())
@@ -538,8 +538,17 @@ for i in range(t):
         if ans=="no":
             break
     print(ans)
-  
-
+   """
+t=int(input())
+for i in range(t):
+    n,m=map(int,input().split())
+    s=input()
+    for j in range(len(s)):
+        if int(s[j])<=m:
+            print(s[:j]+str(m)+s[j:])
+            break
+    else:
+        print(s+str(m))
 
         
            
