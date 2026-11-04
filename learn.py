@@ -525,7 +525,7 @@ for i in range(t):
             print("YES")
             break
                
-t=int(input())
+t=int(input())#https://codeforces.com/problemset/problem/1807/C
 for i in range(t):
     n=int(input())
     s=input()
@@ -538,8 +538,8 @@ for i in range(t):
         if ans=="no":
             break
     print(ans)
-   """
-t=int(input())
+
+t=int(input())#https://codeforces.com/problemset/problem/1811/A
 for i in range(t):
     n,m=map(int,input().split())
     s=input()
@@ -549,6 +549,19 @@ for i in range(t):
             break
     else:
         print(s+str(m))
+   """
+stack = []
+        pairs = {')': '(', '}': '{', ']': '['}
+
+        for char in s:
+            if char in '({[':
+                stack.append(char)
+            else:
+                if not stack or stack.pop() != pairs[char]:
+                    return False
+
+        return len(stack) == 0
+
 
         
            
