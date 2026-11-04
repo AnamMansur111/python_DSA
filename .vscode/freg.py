@@ -135,3 +135,12 @@ for i in range(t):
         if m>s[i] or m==s[i]:
             insert(i,m)
             print(s)
+            t=int(input())
+for i in range(t):
+    n=int(input())
+    m=int(input())
+    s=str(input())
+    for j in range(n):
+        if m>s[i] or m==s[i]:
+            insert(i,m)
+            print(s)
