@@ -550,17 +550,6 @@ for i in range(t):
     else:
         print(s+str(m))
    """
-stack = []
-        pairs = {')': '(', '}': '{', ']': '['}
-
-        for char in s:
-            if char in '({[':
-                stack.append(char)
-            else:
-                if not stack or stack.pop() != pairs[char]:
-                    return False
-
-        return len(stack) == 0
 
 
         
