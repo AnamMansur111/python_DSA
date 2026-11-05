@@ -2,3 +2,10 @@ Hi everyone
 we are learning file I/O
 using java
 i like programming in Java
+
+        for i in range (len(nums)):
+            for j in range(len(nums)):
+                if i!=j and abs(i - j) <= indexDiff and abs(nums[i] - nums[j]) <= valueDiff:
+                    return True
+        else:
+            return False
