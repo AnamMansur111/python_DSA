@@ -16,6 +16,6 @@ print("Sum =", a + b)
                 if nums[i]==nums[j] and abs(i-j)<=k:
                     return True
         else:
-            return False.,
+           
 """
         
