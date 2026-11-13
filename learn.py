@@ -540,8 +540,7 @@ for i in range(t):
     print(ans)
 
 t=int(input())#https://codeforces.com/problemset/problem/1811/A
-for i in range(t):
-    n,m=map(int,input().split())
+for i i.split())
     s=input()
     for j in range(len(s)):
         if int(s[j])<=m::j]+str(m)+s[j:])
