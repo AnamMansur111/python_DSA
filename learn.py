@@ -509,7 +509,7 @@ for i in range(t):
             if s[j]==s[k] and (j%2)!=(k%2):
                 ans ="no"
                 break
-            if ans ==" no":
+            
                 break
     print(ans)   
 
