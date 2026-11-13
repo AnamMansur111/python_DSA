@@ -544,8 +544,7 @@ for i in range(t):
     n,m=map(int,input().split())
     s=input()
     for j in range(len(s)):
-        if int(s[j])<=m:
-            print(s[:j]+str(m)+s[j:])
+        if int(s[j])<=m::j]+str(m)+s[j:])
             break
     else:
         print(s+str(m))
