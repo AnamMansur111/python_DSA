@@ -323,7 +323,7 @@ def calc_convert(usd_val):#USD to INR
 
 calc_convert(1)
 
-
+n=int(input("enter a number")) #even or odd using fun
 def calc_evenorodd(n):
     if (n%2==0):
         print("even")
@@ -401,7 +401,7 @@ f.write("i like programming in Java\n")
 f.close()
 
 x=int(input("enter a number:"))
-nums=(1,3,5,23,56,87,23,12,67,21)
+nums=(1,3,5,23,56,87,23,12,67,12)
 for num in nums:
     if(num==3):
         print("found")
@@ -440,7 +440,11 @@ for i in range (n):
 
     print (k)
 
-n=int(i
+n=int(input())
+for i in range(n):
+    s=input()
+    if len(set(s))>2:
+        print("YES")
     else:
         print("NO")
 
@@ -491,11 +495,10 @@ for i in range(t):
     s=s.lower()
     if set(s)==meow:
         print ("yes")
-    else:
-        print ("no")
+    els
 v
 t=int(input())
-for
+for i in range(t):
     n=int(input())
     s=input()
     ans="yes"
