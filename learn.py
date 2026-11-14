@@ -498,8 +498,7 @@ for i in range(t):
 v
 t=int(input())
 for i in range(t):
-    n=int(input())
-    s=input()
+    n=
     ans="yes"
 
     print(ans)   
