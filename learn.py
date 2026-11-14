@@ -440,11 +440,7 @@ for i in range (n):
 
     print (k)
 
-n=int(input())
-for i in range(n):
-    s=input()
-    if len(set(s))>2:
-        print("YES")
+n=int(i
     else:
         print("NO")
 
