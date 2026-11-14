@@ -492,9 +492,7 @@ t=int(input())
 for i in range(t):
     n=int(input())
     s=input()
-    s=s.lower()
-    if set(s)==meow:
-        print ("yes")
+    s=s.l
     else:
         print ("no")
 v
