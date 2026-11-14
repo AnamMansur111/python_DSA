@@ -323,7 +323,7 @@ def calc_convert(usd_val):#USD to INR
 
 calc_convert(1)
 
-n=int(input("enter a number")) #even or odd using fun
+
 def calc_evenorodd(n):
     if (n%2==0):
         print("even")
