@@ -495,9 +495,17 @@ for i in range(t):
     s=s.lower()
     if set(s)==meow:
         print ("yes")
-    els
+    else:
+        print ("no")
 v
 t=int(input())
+for i in range(t):
+    n=int(input())
+    s=input()
+    ans="yes"
+
+    for j in range(n):
+        for k in range(j+1,n):
             if s[j]==s[k] and (j%2)!=(k%2):
                 ans ="no"
                 break
