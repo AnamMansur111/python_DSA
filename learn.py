@@ -501,13 +501,6 @@ v
     n=int(input())
     s=input()
     ans="yes"
-
-            if ans ==" no":
-                break
-    print(ans)   
-
-t = int(input())
-
 for i in range(t):
     s = input()
     for j in range(len(s)):
