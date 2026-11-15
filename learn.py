@@ -506,7 +506,7 @@ for i in range(t):
 
     for j in range(n):
         for k in rang
-            if s[j]==s[k] and (j%2)!=(k%2):
+            if s[j]==s[k] and (j%2)
                 ans ="no"
                 break
             if ans ==" no":
