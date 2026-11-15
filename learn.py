@@ -420,7 +420,7 @@ else:
           
 n=int(input())
 
- 
+ input
 t=int(input())
 for i in range(t):
     n=int(input())
