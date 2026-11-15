@@ -419,34 +419,6 @@ else:
     print("NO")
           
 n=int(input())
-for i in range (n):
-    s=input()
-
- 
-    if len(s)>10:
-        print (s[0]+str(len(s)-2)+s[-1])//we r using str ...cos ..s[0] and s[-1]willl retirn string(letter)and len(s)-2 gives 10 which is integer
-        #so we r converting integer to string ..coz string and integer together is not possible
-    else:
-       print (s)
-    
-n=int(input())
-for i in range (n):
-    k=0
-    s="codeforces"
-    p=input("")
-    for j in range(10):
-        if s[j]!=p[j]:
-            k+=1
-
-    print (k)
-
-n=int(input())
-for i in range(n):
-    s=input()
-    if len(set(s))>2:
-        print("YES")
-    else:
-        print("NO")
 
  
 t=int(input())
