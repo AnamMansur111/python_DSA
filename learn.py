@@ -498,8 +498,6 @@ for i in range(t):
     else:
         print ("no")
 v
-t=int(input())
-for i in range(t):
     n=int(input())
     s=input()
     ans="yes"
