@@ -464,8 +464,7 @@ for i in range(t):
                 break
     print(ans)   
      
-t=int(input())
-for i in range(t):
+
     n=int(input())
     m=int(input())
     s=str(input())
