@@ -396,14 +396,11 @@ f=open("practice.txt","w")
 f.write("Hi everyone\n")
 f.write("we are learning file I/O\n")
 f.write("using java\n")
-f.write("i lgit add .
-git commit -m "Added new solution"
-git push
-
+f.write("i like programming in Java\n")
 
 f.close()
 
-x=int(input("iunnn
+x=int(input("enter a number:"))
 nums=(1,3,5,23,56,87,23,12,67,12)
 for num in nums:
     if(num==3):
@@ -501,7 +498,9 @@ for i in range(t):
     else:
         print ("no")
 
-t=int(input
+t=int(input())
+for i in range(
+    n=int(input())
     s=input()
     ans="yes"
 
