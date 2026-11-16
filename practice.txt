@@ -10,4 +10,5 @@ i like programming in Java
         else:
             return False
             for i in range(len(nums_))
+            for j in range(len(nums))
             
