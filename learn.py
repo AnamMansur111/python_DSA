@@ -400,7 +400,7 @@ f.write("i like programming in Java\n")
 
 f.close()
 
-x=int(input("enter a number:"))
+x=int(input("iunnn
 nums=(1,3,5,23,56,87,23,12,67,12)
 for num in nums:
     if(num==3):
