@@ -318,8 +318,7 @@ def calc_fact(n):#find fact using fun
 calc_fact(6)
 
 def calc_convert(usd_val):#USD to INR
-   inr_val=usd_val*83
-   print(usd_val,"USD=",inr_val,"INR")
+   inr_val=us
 
 calc_convert(1)
 
