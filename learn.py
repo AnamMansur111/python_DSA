@@ -396,7 +396,10 @@ f=open("practice.txt","w")
 f.write("Hi everyone\n")
 f.write("we are learning file I/O\n")
 f.write("using java\n")
-f.write("i like programming in Java\n")
+f.write("i lgit add .
+git commit -m "Added new solution"
+git push
+
 
 f.close()
 
