@@ -364,7 +364,7 @@ def print_list(list,idx=0):
     print_list(list,idx+1)
 print_list(contry)
 ..........
-
+f=open("demo.txt","r") #file
 data=f.read()
 print(data)
 f.close() 
