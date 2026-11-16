@@ -10,4 +10,4 @@ i like programming in Java
         else:
             return False
            
-                if i!=j and abs(i - j) <= indexDiff and abs(nums[i]) 
+                if i!=j and abs(i - j) <= indexDiff and 
