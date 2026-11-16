@@ -293,7 +293,8 @@ def calc_sum(a=2,b=4): #default function
     return(sum)
 calc_sum() #2+4
 
-#to print a length of
+#to print a length of list using function
+contry=["uk","canaday","norway","kuwait"]
 def length_list(list):
     print(len(list))
 
