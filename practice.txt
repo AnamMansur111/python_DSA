@@ -8,5 +8,5 @@ i like programming in Java
                 if i!=j and abs(i - j) <= indexDiff and abs(nums[i] - nums[j]) <= valueDiff:
                     return True
         else:
-            return true
+            return False
             
