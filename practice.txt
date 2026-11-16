@@ -9,4 +9,5 @@ i like programming in Java
                     return True
         else:
             return False
+            for i in range(len(nums_))
             
