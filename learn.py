@@ -400,6 +400,8 @@ f.write("i like programming in Java\n")
 
 f.close()
 
+x=int(input("enter a number:"))
+nums=(1,3,5,23,56,87,23,12,67,12)
 for num in nums:
     if(num==3):
         print("found")
@@ -462,7 +464,8 @@ for i in range(t):
                 break
     print(ans)   
      
-
+t=int(input())
+for i in range(t):
     n=int(input())
     m=int(input())
     s=str(input())
