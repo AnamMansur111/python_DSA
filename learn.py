@@ -489,7 +489,9 @@ for i in range(t):
     print(s)
 
 t=int(input())
-f
+for i in range(t):
+    n=int(input())
+    s=input()
     s=
 
 t=int(input())
@@ -538,7 +540,10 @@ for i in range(t):
     s=input()
     for j in range(len(s)):
         if int(s[j])<=m:
-            pr
+            print(s[:j]+str(m)+s[j:])
+            break
+    else:
+        print(s+str(m))
    """
 
 
