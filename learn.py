@@ -501,7 +501,12 @@ for i in range(t):
 t=int(input())
 for i in range(t):
     n=int(input())
-    s=inpu
+    s=input()
+    ans="yes"
+
+    for j in range(n):
+        for k in range(j+1,n):
+            if s[j]==s[k] and (j%2)!=(k%2):
                 ans ="no"
                 break
             if ans ==" no":
