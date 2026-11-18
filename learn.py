@@ -538,10 +538,7 @@ for i in range(t):
     s=input()
     for j in range(len(s)):
         if int(s[j])<=m:
-            print(s[:j]+str(m)+s[j:])
-            break
-    else:
-        print(s+str(m))
+            pr
    """
 
 
