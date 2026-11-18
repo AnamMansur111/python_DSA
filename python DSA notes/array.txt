@@ -9,4 +9,4 @@ note
 #nested loop ...0(n2)...coz it checks all the possibilities 
 #2 pointer ...eliminates possibilites ..go for the correct one ...0(n)
 
-#2.
+#2.eliminate
