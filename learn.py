@@ -489,9 +489,7 @@ for i in range(t):
     print(s)
 
 t=int(input())
-for i in range(t):
-    n=int(input())
-    s=input()
+f
     s=
 
 t=int(input())
