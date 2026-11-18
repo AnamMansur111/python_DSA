@@ -512,7 +512,7 @@ t = int(input())
 
 for i in range(t):
     s = input()
-    for 
+    for j in range(len(s)):
         if s[0] == s[1]:
             print ("N0")
             break
