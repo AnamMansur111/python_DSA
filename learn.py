@@ -504,8 +504,7 @@ for i in range(t):
     s=input()
     ans="yes"
 
-    for j in range(n):
-        for k in range(j+1,n):
+    for 
             if 
                 ans ="no"
                 break
