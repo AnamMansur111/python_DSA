@@ -509,7 +509,7 @@ for i in range(t):
             if 
                 ans ="no"
                 break
-            if ans ==" no":
+            if 
                 break
     print(ans)   
 
