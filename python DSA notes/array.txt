@@ -6,6 +6,7 @@ other string ...we dont put it in prefix ..we return the prefix ..if matches we 
 
 #https://leetcode.com/problems/longest-common-prefix/description/...(to open lik ..cmd + click)
 note
-#nested loo
+#nested loop ...0(n2)...coz it checks all the possibilities 
+#2 pointer ... ..go for the 
 
 #2.
