@@ -498,11 +498,7 @@ for i in range(t):
     else:
         print ("no")
 
-t=int(input())
-for i in range(t):
-   
-            if ans ==" no":
-                break
+t=int(inp
     print(ans)   
 
 t = int(input())
