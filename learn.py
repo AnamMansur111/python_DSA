@@ -475,13 +475,6 @@ have to make make. m also a string .
             s=s[:j]+m+s[j:]
             break
     else:
-        s=s+m
-    print(s)
-
-t=in:
-        print ("yes")
-    else:
-        print ("no")
 
 t=int(inp
     print(ans)   
