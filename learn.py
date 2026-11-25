@@ -514,7 +514,7 @@ for i in range(t):
     ans ="yes"
     for j in range(len(s)):
         for k in range(j+1,len(s)):
-            if s[j]==s[k] and (j%2)!=(k%2):
+            if s[j]==s[k] and (j%2)!=(k
                 ans="no"
                 break
         if ans=="no":
