@@ -468,13 +468,35 @@ t=int(input())
 for i in range(t):
     n=int(input())
     m=int(input())
-have to make make. m also a string .
+    s=str(input())
+    for j in range(n):
+        if m>s[i] or m==s[i]:
+            insert(i,m)
+            print(s)
+
+t=int(input())
+for i in range(t):
+    n,m =map(int,input().split())
+    s=input()
+    m=str(m) #since s is a string and v r adding the m into s....v have to make make. m also a string .
 
     for j in range (n):
         if m>s[j]:
             s=s[:j]+m+s[j:]
             break
     else:
+        s=s+m
+    print(s)
+
+t=int(input())
+for i in range(t):
+    n=int(input())
+    s=input()
+    s=s.lower()
+    if set(s)==meow:
+        print ("yes")
+    else:
+        print ("no")
 
 t=int(inp
     print(ans)   
@@ -489,10 +511,16 @@ for i in range(t):
             break
         else:
             print("YES")
+            break
+               
+t=int(input())#https://codeforces.com/problemset/problem/1807/C
+for i in range(t):
+    n=int(input())
+    s=input()
     ans ="yes"
     for j in range(len(s)):
         for k in range(j+1,len(s)):
-            if s[j]==s[k] and (j%2)!=(k
+            if s[j]==s[k] and (j%2)!=(k%2):
                 ans="no"
                 break
         if ans=="no":
