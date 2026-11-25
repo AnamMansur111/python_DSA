@@ -468,17 +468,7 @@ t=int(input())
 for i in range(t):
     n=int(input())
     m=int(input())
-    s=str(input())
-    for j in range(n):
-        if m>s[i] or m==s[i]:
-            insert(i,m)
-            print(s)
-
-t=int(input())
-for i in range(t):
-    n,m =map(int,input().split())
-    s=input()
-    m=str(m) #since s is a string and v r adding the m into s....v have to make make. m also a string .
+have to make make. m also a string .
 
     for j in range (n):
         if m>s[j]:
