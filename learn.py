@@ -507,14 +507,10 @@ for i in range(t):
     s = input()
     for j in range(len(s)):
         if s[0] == s[1]:
-         
-            print("YES")
+            print ("N0")
             break
-               
-t=int(input())#https://codeforces.com/problemset/problem/1807/C
-for i in range(t):
-    n=int(input())
-    s=input()
+        else:
+            print("YES")
     ans ="yes"
     for j in range(len(s)):
         for k in range(j+1,len(s)):
