@@ -29,5 +29,5 @@ The first occurrence is at index 0, so we return 0.
 Example 2:
 
 Input: haystack = "leetcode", needle = "leeto"
-Output: -1 90
-Explanation: "leeto" did not occur  in in "leetcode",heerer so we return -1 """
+Output: -1
+Explanation: "leeto" did not occur in "leetcode", so we return -1 """
