@@ -478,12 +478,7 @@ have to make make. m also a string .
         s=s+m
     print(s)
 
-t=int(input())
-for i in range(t):
-    n=int(input())
-    s=input()
-    s=s.lower()
-    if set(s)==meow:
+t=in:
         print ("yes")
     else:
         print ("no")
